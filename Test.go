@@ -17,13 +17,7 @@ func main() {
 
 		fmt.Print("Enter your age: ")
 		fmt.Scanln(&age)
-
-		if age < 18 {
-			fmt.Println("Hello", name, "- You are a minor 👶")
-		} else {
-			fmt.Println("Hello", name, "- You are an adult 🧑")
-		}
-
+		
 		fmt.Print("\nDo you want to continue? (yes/no): ")
 		fmt.Scanln(&choice)
 
